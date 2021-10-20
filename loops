@@ -1,0 +1,14 @@
+#Code For Loops
+
+one_digits = range(10)
+
+squares = []
+
+for item in one_digits
+  squares.append(item**2)
+  print(item)
+  
+cubes = [item**3 for item in one_digits]
+print(cubes)
+
+print(squares)
