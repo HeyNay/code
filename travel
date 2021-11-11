@@ -1,6 +1,6 @@
 #
 
-def trip_planner_welcome(name): 
+def trip_planner_welcome(name):
   print("Welcome to tripplanner v1.0 " + name)
 
 def destination_setup(origin, destination, estimated_time, mode_of_transport="Car"):
@@ -15,7 +15,7 @@ def estimated_time_rounded(estimated_time):
   return rounded_time
 
 
-trip_planner_welcome(" <YOUR NAME HERE> ")
+trip_planner_welcome("Brandon")
 estimate = estimated_time_rounded(2.43)
-destination_setup(" <PICK AN ORIGIN> ", "<PICK A DESTINATION > ", estimate, "Car")
+destination_setup(" Neveragain Island ", "Happy Island ", estimate, "Car")
 
